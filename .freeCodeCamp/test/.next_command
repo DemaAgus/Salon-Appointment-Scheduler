@@ -64,3 +64,6 @@ psql --username=freecodecamp --dbname=postgres
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 touch salon.sh
 chmod +x salon.sh
+git init
+git status
+git add .
